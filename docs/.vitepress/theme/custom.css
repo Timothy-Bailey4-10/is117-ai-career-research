@@ -1,0 +1,66 @@
+:root {
+  --vp-c-brand-1: #6d4aff;
+  --vp-c-brand-2: #5a38eb;
+  --vp-c-brand-3: #4a2bd1;
+  --vp-c-brand-soft: rgba(109, 74, 255, 0.14);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #6d4aff 20%, #18b4c9);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #6d4aff 50%, #18b4c9 50%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+  --vp-c-brand-1: #a08bff;
+  --vp-c-brand-2: #8c74ff;
+  --vp-c-brand-3: #7a5fff;
+}
+
+/* At-a-glance role card */
+.role-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 20px 0 28px;
+}
+.role-card div {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: var(--vp-c-bg-soft);
+}
+.role-card strong {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--vp-c-text-2);
+  margin-bottom: 4px;
+}
+
+/* Simple horizontal bar chart (skills page) */
+.bars { margin: 16px 0 28px; }
+.bar {
+  display: grid;
+  grid-template-columns: 130px 1fr 44px;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+  font-size: 14px;
+}
+.bar .track {
+  height: 14px;
+  border-radius: 7px;
+  background: var(--vp-c-bg-soft);
+  overflow: hidden;
+}
+.bar .fill {
+  height: 100%;
+  border-radius: 7px;
+  background: var(--vp-c-brand-1);
+}
+.bar .pct { text-align: right; color: var(--vp-c-text-2); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 480px) {
+  .bar { grid-template-columns: 96px 1fr 40px; font-size: 13px; }
+}
