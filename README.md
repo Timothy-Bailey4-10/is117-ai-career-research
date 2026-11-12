@@ -1,55 +1,53 @@
 # AI Career Research
 
-🌐 **Live site:** https://timothy-bailey4-10.github.io/is117-ai-career-research/
+### 🌐 [View the site → timothy-bailey4-10.github.io/is117-ai-career-research](https://timothy-bailey4-10.github.io/is117-ai-career-research/)
 
-A concise guide to in-demand AI jobs, centered on the **Forward Deployed Engineer (FDE)** and the roles around it: Applied AI Engineer, Solutions Engineer, AI Engineer, Agent Engineer, and more.
+A concise guide to in-demand AI jobs, centered on the **Forward Deployed Engineer (FDE)** and the roles around it: Applied AI Engineer, Solutions Engineer, AI Engineer, Agent Engineer, and more. Each fact on the FDE pages links to the exact sentence in its source.
 
 Built with [VitePress](https://vitepress.dev) and deployed automatically to GitHub Pages.
 
-## What's inside
+## Pages
 
 | Page | What it covers |
 |---|---|
-| [Forward Deployed Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/forward-deployed-engineer) | The main guide: work, pay, interviews, how to break in |
-| [Similar roles](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/) | FDE family + builder roles, side by side |
-| [Find the jobs](https://timothy-bailey4-10.github.io/is117-ai-career-research/job-search) | Search terms, where to look, posting checklist |
-| [AI Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/ai-engineer) | Building products on top of LLMs |
-| [Agent Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/agent-engineer) | Tool-using AI agents |
-| [Skills required](https://timothy-bailey4-10.github.io/is117-ai-career-research/skills) | FDE skills checklist + skills by role |
+| [Forward Deployed Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/forward-deployed-engineer) | The main guide: work, pay, who's hiring, interviews, how to break in |
+| [Similar roles](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/) | FDE family and builder roles, side by side |
+| [Skills required](https://timothy-bailey4-10.github.io/is117-ai-career-research/skills) | What postings ask for, an FDE skills checklist, and skills by role |
+| [Find the jobs](https://timothy-bailey4-10.github.io/is117-ai-career-research/job-search) | Search terms, companies to check, and a posting checklist |
 | [Student roadmap](https://timothy-bailey4-10.github.io/is117-ai-career-research/roadmap) | Four stages from foundations to internships |
+| [Sources](https://timothy-bailey4-10.github.io/is117-ai-career-research/sources) | Every source and what it supports |
 
-## Run it on your computer
+## Run it locally
 
 ```bash
-npm install          # install VitePress
-npm run docs:dev     # open http://localhost:5173/is117-ai-career-research/
+npm install
+npm run docs:dev     # http://localhost:5173/is117-ai-career-research/
+```
+
+## Edit and publish
+
+```bash
+# If you edited a cited page, edit its template in scripts/citations/templates/ and regenerate:
+python3 scripts/citations/cite.py scripts/citations/templates docs
+
+git add -A
+git commit -m "Describe your change"
+git push origin main   # the site redeploys in about a minute
 ```
 
 ## Project layout
 
 ```
-ai-career-research/
-├── .github/workflows/deploy.yml   ← builds + publishes to GitHub Pages
+├── .github/workflows/deploy.yml   ← builds and publishes to GitHub Pages
 ├── docs/
 │   ├── .vitepress/config.mts      ← site title, menu, sidebar
 │   ├── index.md                   ← home page
 │   ├── roles/                     ← one page per job title
-│   ├── skills.md
-│   ├── roadmap.md
-│   └── sources.md
+│   ├── skills.md · job-search.md · roadmap.md · sources.md
+├── scripts/citations/             ← citation templates + verified quote map
 └── package.json
 ```
 
-## Add a new role
-
-1. Create `docs/roles/your-role-name.md`.
-2. Add it to the `sidebar` in `docs/.vitepress/config.mts`.
-3. Commit and push to `main` — the site updates in about a minute.
-
-## How deployment works
-
-Every push to `main` runs the **Deploy VitePress site to Pages** workflow in the Actions tab. It builds the site and publishes it to the live link above.
-
 ---
 
-Research compiled November 2026. Pay figures are reported ranges — always check the live job posting.
+Research compiled November 2026. Pay figures are reported ranges, so always check the live job posting.
