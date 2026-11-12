@@ -12,6 +12,12 @@ Research compiled November 2026. Pay figures are reported ranges from these guid
 - [Roles confused with FDE — Simpliaxis](https://www.simpliaxis.com/resources/roles-confused-with-fde)
 - [7 Steps to Become a Forward Deployed Engineer in 2026 — KDnuggets](https://www.kdnuggets.com/7-steps-to-become-a-forward-deployed-engineer-in-2026)
 
+## FDE skills
+
+- [I Analyzed 1,000 Forward Deployed Engineer Jobs — Bloomberry](https://bloomberry.com/blog/i-analyzed-1000-forward-deployed-engineer-jobs-what-i-learned/)
+- [Forward Deployed Engineer Skills, What the 2026 Postings Ask For — Masai School](https://www.masaischool.com/blog/forward-deployed-engineer-skills/)
+- [FDE Skills Employers Ask For: A 2026 Job-Posting Analysis — Interview Kickstart](https://interviewkickstart.com/blogs/articles/forward-deployed-engineer-skills-job-posting-analysis)
+
 ## Role guides
 
 - [What Is a Forward Deployed Engineer? The 2026 Guide — AI Builder Club](https://www.aibuilderclub.com/blog/forward-deployed-engineer-guide)

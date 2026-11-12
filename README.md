@@ -15,7 +15,7 @@ Built with [VitePress](https://vitepress.dev) and deployed automatically to GitH
 | [Find the jobs](https://timothy-bailey4-10.github.io/is117-ai-career-research/job-search) | Search terms, where to look, posting checklist |
 | [AI Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/ai-engineer) | Building products on top of LLMs |
 | [Agent Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/agent-engineer) | Tool-using AI agents |
-| [Skills in demand](https://timothy-bailey4-10.github.io/is117-ai-career-research/skills) | What job postings actually ask for |
+| [Skills required](https://timothy-bailey4-10.github.io/is117-ai-career-research/skills) | FDE skills checklist + skills by role |
 | [Student roadmap](https://timothy-bailey4-10.github.io/is117-ai-career-research/roadmap) | Four stages from foundations to internships |
 
 ## Run it on your computer

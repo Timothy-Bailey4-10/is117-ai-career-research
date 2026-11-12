@@ -30,6 +30,8 @@ The model started at Palantir. In 2026 it is the main way AI labs and enterprise
 - **Communication**: demoing, writing, explaining trade-offs to non-engineers
 - **Ownership**: debugging production issues with little guidance
 
+→ Full checklist with how to prove each skill: [Skills required](/skills)
+
 ## Who's hiring
 
 Anthropic and OpenAI (often under *Applied AI*), Palantir, Salesforce (dedicated AI FDE roles at multiple levels), Databricks, Snowflake, Vercel, Sierra, Scale AI, and many AI startups. Consulting firms such as Deloitte also hire under the FDE title. Government-facing roles often require a security clearance.

@@ -1,57 +1,73 @@
-# Skills in Demand
+# Skills Required
 
-What do AI job postings actually ask for? A 2026 study of about 900 US AI Engineer postings gives a clear picture.
+What you need to get hired as a **Forward Deployed Engineer** and in the roles around it, and how to prove each skill.
 
-## Programming languages
+## What FDE postings ask for
 
-<div class="bars">
-  <div class="bar"><span>Python</span><div class="track"><div class="fill" style="width:71%"></div></div><span class="pct">71%</span></div>
-  <div class="bar"><span>Java</span><div class="track"><div class="fill" style="width:22%"></div></div><span class="pct">22%</span></div>
-  <div class="bar"><span>SQL</span><div class="track"><div class="fill" style="width:17%"></div></div><span class="pct">17%</span></div>
-  <div class="bar"><span>R</span><div class="track"><div class="fill" style="width:12%"></div></div><span class="pct">12%</span></div>
-</div>
-
-## Frameworks
+From Bloomberry's analysis of ~1,000 FDE job postings (2026):
 
 <div class="bars">
-  <div class="bar"><span>PyTorch</span><div class="track"><div class="fill" style="width:38%"></div></div><span class="pct">38%</span></div>
-  <div class="bar"><span>TensorFlow</span><div class="track"><div class="fill" style="width:33%"></div></div><span class="pct">33%</span></div>
-  <div class="bar"><span>LangChain</span><div class="track"><div class="fill" style="width:11%"></div></div><span class="pct">11%</span></div>
-  <div class="bar"><span>scikit-learn</span><div class="track"><div class="fill" style="width:10%"></div></div><span class="pct">10%</span></div>
-  <div class="bar"><span>Hugging Face</span><div class="track"><div class="fill" style="width:5%"></div></div><span class="pct">5%</span></div>
+  <div class="bar"><span>Python</span><div class="track"><div class="fill" style="width:66%"></div></div><span class="pct">66%</span></div>
+  <div class="bar"><span>AI agents</span><div class="track"><div class="fill" style="width:35%"></div></div><span class="pct">35%</span></div>
+  <div class="bar"><span>TypeScript</span><div class="track"><div class="fill" style="width:35%"></div></div><span class="pct">35%</span></div>
+  <div class="bar"><span>AWS</span><div class="track"><div class="fill" style="width:32%"></div></div><span class="pct">32%</span></div>
+  <div class="bar"><span>LLM experience</span><div class="track"><div class="fill" style="width:31%"></div></div><span class="pct">31%</span></div>
+  <div class="bar"><span>GCP</span><div class="track"><div class="fill" style="width:22%"></div></div><span class="pct">22%</span></div>
+  <div class="bar"><span>Azure</span><div class="track"><div class="fill" style="width:18%"></div></div><span class="pct">18%</span></div>
 </div>
 
-## AI techniques
+A separate review of FDE postings found the most common non-language requirements to be **production coding, stakeholder communication, customer discovery, AI/agent development, integrations, and owning adoption**.
 
-<div class="bars">
-  <div class="bar"><span>Deep learning</span><div class="track"><div class="fill" style="width:28%"></div></div><span class="pct">28%</span></div>
-  <div class="bar"><span>NLP</span><div class="track"><div class="fill" style="width:20%"></div></div><span class="pct">20%</span></div>
-  <div class="bar"><span>Fine-tuning</span><div class="track"><div class="fill" style="width:15%"></div></div><span class="pct">15%</span></div>
-  <div class="bar"><span>RAG</span><div class="track"><div class="fill" style="width:14%"></div></div><span class="pct">14%</span></div>
-  <div class="bar"><span>AI agents</span><div class="track"><div class="fill" style="width:11%"></div></div><span class="pct">11%</span></div>
-  <div class="bar"><span>Prompting</span><div class="track"><div class="fill" style="width:9%"></div></div><span class="pct">9%</span></div>
-</div>
+## FDE skills checklist
 
-## Infrastructure
+### Technical (must-have)
 
-<div class="bars">
-  <div class="bar"><span>Kubernetes</span><div class="track"><div class="fill" style="width:18%"></div></div><span class="pct">18%</span></div>
-  <div class="bar"><span>Docker</span><div class="track"><div class="fill" style="width:15%"></div></div><span class="pct">15%</span></div>
-  <div class="bar"><span>Data pipelines</span><div class="track"><div class="fill" style="width:12%"></div></div><span class="pct">12%</span></div>
-  <div class="bar"><span>Spark</span><div class="track"><div class="fill" style="width:11%"></div></div><span class="pct">11%</span></div>
-</div>
+| Skill | What it means in practice | How to prove it |
+|---|---|---|
+| **Production coding** | Python and/or TypeScript you'd be comfortable shipping, with tests | A public repo with a real deployed app |
+| **APIs & integrations** | REST and webhooks, auth (OAuth, API keys), connecting to CRMs and databases | Project that pulls from a real third-party API |
+| **SQL & data wrangling** | Cleaning messy exports and building simple pipelines | Notebook or script that turns raw data into usable inputs |
+| **LLM apps** | Prompting, structured outputs, RAG (embeddings + vector DB) | A RAG app over real documents |
+| **Agents & tool use** | Model calls tools, takes multi-step actions, hands off to humans | An agent that completes a real task end-to-end |
+| **Evals** | Test sets, metrics, and regression checks for AI output | An eval report in your project README |
+| **Cloud & deploy** | One cloud (AWS is most common), Docker, environment config | Your project running at a public URL |
 
-AWS and Azure are the most-mentioned cloud platforms.
+### People (what makes an FDE different from other engineers)
 
-## The skills that show up across every role
+| Skill | What it means in practice | How to prove it |
+|---|---|---|
+| **Customer discovery** | Asking questions until you understand the real workflow | A write-up of the user problem you solved |
+| **Communication** | Explaining trade-offs to non-engineers, writing clear docs | A 5-minute demo video + one-page summary |
+| **Ownership** | Debugging production issues with little guidance | A story about something that broke and how you fixed it |
+| **Scoping** | Turning a vague request into a buildable plan | Your project's "v1 vs later" decisions |
 
-These aren't always in the "requirements" list, but every role guide on this site mentions them:
+## Skills by role
 
-| Skill | Why it matters |
-|---|---|
-| **Evaluation** | Proving an AI system actually works is the most common interview topic. |
-| **Clear writing** | Specs, demos, rubrics, and policies are all writing. |
-| **Shipping** | A finished public project beats a half-done impressive one. |
-| **Explaining to non-experts** | Customers, managers, and users aren't engineers. |
+How much each similar role relies on each skill area:
 
-<small>Source: 365 Data Science, *AI Engineer Job Outlook 2026*. See [Sources](/sources).</small>
+| Skill | FDE | Applied AI Eng. | Solutions Eng. | AI Engineer | Agent Engineer | AI Eval Eng. |
+|---|---|---|---|---|---|---|
+| Production coding | ●●● | ●●● | ●● | ●●● | ●●● | ●● |
+| APIs & integrations | ●●● | ●●● | ●● | ●● | ●●● | ● |
+| LLM apps / RAG | ●●● | ●●● | ●● | ●●● | ●●● | ●● |
+| Agents & tool use | ●●● | ●●● | ●● | ●● | ●●● | ●● |
+| Evals | ●● | ●●● | ● | ●● | ●● | ●●● |
+| Cloud & deploy | ●● | ●● | ●● | ●●● | ●● | ● |
+| Customer communication | ●●● | ●●● | ●●● | ● | ● | ● |
+| Demos & presenting | ●●● | ●● | ●●● | ● | ● | ● |
+
+<small>●●● core requirement · ●● expected · ● nice to have. Compiled from the role guides on this site.</small>
+
+## One project that covers almost everything
+
+Build **one AI agent for a real user** (a club, small business, or professor):
+
+1. **Discover**: interview them and write down the workflow (*customer discovery*)
+2. **Build**: an agent in Python or TypeScript that calls their real tools or data (*coding, APIs, agents, RAG*)
+3. **Deploy**: put it at a public URL on AWS or similar (*cloud*)
+4. **Measure**: write 20–50 test cases and report the pass rate (*evals*)
+5. **Present**: record a 5-minute demo and write a one-page summary (*communication*)
+
+That single project lets you answer most FDE interview rounds with a real story.
+
+<small>Sources: Bloomberry, *I analyzed 1,000 FDE jobs* (2026); Masai School and Interview Kickstart FDE posting analyses. See [Sources](/sources).</small>

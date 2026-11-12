@@ -13,8 +13,8 @@ hero:
       text: Similar roles
       link: /roles/
     - theme: alt
-      text: Find the jobs
-      link: /job-search
+      text: Skills required
+      link: /skills
 
 features:
   - icon: 🚀

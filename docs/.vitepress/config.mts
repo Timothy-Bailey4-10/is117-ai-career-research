@@ -17,6 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'FDE', link: '/roles/forward-deployed-engineer' },
       { text: 'Similar roles', link: '/roles/' },
+      { text: 'Skills', link: '/skills' },
       { text: 'Find jobs', link: '/job-search' },
       { text: 'Roadmap', link: '/roadmap' }
     ],
@@ -26,6 +27,7 @@ export default defineConfig({
         text: 'Forward Deployed Engineer',
         items: [
           { text: 'FDE guide', link: '/roles/forward-deployed-engineer' },
+          { text: 'Skills required', link: '/skills' },
           { text: 'Find the jobs', link: '/job-search' }
         ]
       },
@@ -51,7 +53,6 @@ export default defineConfig({
       {
         text: 'Getting there',
         items: [
-          { text: 'Skills in demand', link: '/skills' },
           { text: 'Student roadmap', link: '/roadmap' },
           { text: 'Sources', link: '/sources' }
         ]
