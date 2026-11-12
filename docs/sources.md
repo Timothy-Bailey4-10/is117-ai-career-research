@@ -2,6 +2,16 @@
 
 Research compiled November 2026. Pay figures are reported ranges from these guides and change often — always check the live job posting.
 
+## FDE market data (2026)
+
+- [Forward Deployed Engineer Salary in 2026 — Recruiting from Scratch](https://www.recruitingfromscratch.com/blog/forward-deployed-engineer-salary-in-2026-real-data-from-1-9-million-job-postings)
+- [What Is a Forward Deployed AI Engineer? — Paraform](https://www.paraform.com/insights/forward-deployed-ai-engineer)
+- [How to Hire a Forward Deployed Engineer in 2026 — Paraform](https://www.paraform.com/insights/how-to-hire-a-forward-deployed-engineer)
+- [Forward deployed engineers: fast-growing six-figure job — Fortune](https://fortune.com/2026/09/03/forward-deployed-engineers-fast-growing-six-figure-silicon-valley-job-integrate-ai-with-customers-tech-careers-palantir/)
+- [FDE vs ML Engineer vs Solutions Architect — Perspective AI](https://getperspective.ai/blog/forward-deployed-engineer-vs-ml-engineer-vs-solutions-architect-2026/markdown)
+- [Roles confused with FDE — Simpliaxis](https://www.simpliaxis.com/resources/roles-confused-with-fde)
+- [7 Steps to Become a Forward Deployed Engineer in 2026 — KDnuggets](https://www.kdnuggets.com/7-steps-to-become-a-forward-deployed-engineer-in-2026)
+
 ## Role guides
 
 - [What Is a Forward Deployed Engineer? The 2026 Guide — AI Builder Club](https://www.aibuilderclub.com/blog/forward-deployed-engineer-guide)

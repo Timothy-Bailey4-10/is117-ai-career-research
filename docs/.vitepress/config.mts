@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 
-// The site is served from https://timothybailey4-10.github.io/ai-career-research/
+// The site is served from https://timothy-bailey4-10.github.io/is117-ai-career-research/
 // so every link needs the repo name as its base path.
 export default defineConfig({
-  base: '/ai-career-research/',
+  base: '/is117-ai-career-research/',
   title: 'AI Career Research',
-  description: 'A field guide to the new jobs in the AI industry — what they are, what they pay, and how to break in.',
+  description: 'A concise guide to Forward Deployed Engineer and other in-demand AI jobs.',
   lastUpdated: true,
   cleanUrls: true,
 
@@ -15,33 +15,33 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Roles', link: '/roles/' },
-      { text: 'Skills', link: '/skills' },
-      { text: 'Roadmap', link: '/roadmap' },
-      { text: 'Sources', link: '/sources' }
+      { text: 'FDE', link: '/roles/forward-deployed-engineer' },
+      { text: 'Similar roles', link: '/roles/' },
+      { text: 'Find jobs', link: '/job-search' },
+      { text: 'Roadmap', link: '/roadmap' }
     ],
 
     sidebar: [
       {
-        text: 'Start here',
+        text: 'Forward Deployed Engineer',
         items: [
-          { text: 'Overview', link: '/roles/' },
-          { text: 'Compare all roles', link: '/roles/#compare-the-roles' }
+          { text: 'FDE guide', link: '/roles/forward-deployed-engineer' },
+          { text: 'Find the jobs', link: '/job-search' }
         ]
       },
       {
-        text: 'Building AI',
+        text: 'Similar roles',
         items: [
+          { text: 'Compare all roles', link: '/roles/' },
           { text: 'AI Engineer', link: '/roles/ai-engineer' },
-          { text: 'Forward Deployed Engineer', link: '/roles/forward-deployed-engineer' },
           { text: 'Agent Engineer', link: '/roles/agent-engineer' },
           { text: 'AI Evaluation Engineer', link: '/roles/ai-evaluation-engineer' },
           { text: 'AI Operations (LLMOps)', link: '/roles/ai-operations' }
         ]
       },
       {
-        text: 'Shaping AI',
+        text: 'Other AI roles',
+        collapsed: true,
         items: [
           { text: 'AI Product Manager', link: '/roles/ai-product-manager' },
           { text: 'AI Trainer', link: '/roles/ai-trainer' },
@@ -59,13 +59,13 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TimothyBailey4-10/ai-career-research' }
+      { icon: 'github', link: 'https://github.com/Timothy-Bailey4-10/is117-ai-career-research' }
     ],
 
     search: { provider: 'local' },
 
     editLink: {
-      pattern: 'https://github.com/TimothyBailey4-10/ai-career-research/edit/main/docs/:path',
+      pattern: 'https://github.com/Timothy-Bailey4-10/is117-ai-career-research/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 

@@ -1,8 +1,8 @@
 # AI Career Research
 
-🌐 **Live site:** https://timothybailey4-10.github.io/ai-career-research/
+🌐 **Live site:** https://timothy-bailey4-10.github.io/is117-ai-career-research/
 
-A field guide to the new jobs in the AI industry — **Forward Deployed Engineer, AI Engineer, Agent Engineer, AI Evaluation Engineer**, and more. Each role page covers what the job is, what a week looks like, the skills employers ask for, reported pay, and concrete first steps for students.
+A concise guide to in-demand AI jobs, centered on the **Forward Deployed Engineer (FDE)** and the roles around it: Applied AI Engineer, Solutions Engineer, AI Engineer, Agent Engineer, and more.
 
 Built with [VitePress](https://vitepress.dev) and deployed automatically to GitHub Pages.
 
@@ -10,18 +10,19 @@ Built with [VitePress](https://vitepress.dev) and deployed automatically to GitH
 
 | Page | What it covers |
 |---|---|
-| [Roles overview](https://timothybailey4-10.github.io/ai-career-research/roles/) | How the roles connect + side-by-side comparison |
-| [Forward Deployed Engineer](https://timothybailey4-10.github.io/ai-career-research/roles/forward-deployed-engineer) | Embedding with customers to ship AI |
-| [AI Engineer](https://timothybailey4-10.github.io/ai-career-research/roles/ai-engineer) | Building products on top of LLMs |
-| [Agent Engineer](https://timothybailey4-10.github.io/ai-career-research/roles/agent-engineer) | Tool-using AI agents |
-| [Skills in demand](https://timothybailey4-10.github.io/ai-career-research/skills) | What job postings actually ask for |
-| [Student roadmap](https://timothybailey4-10.github.io/ai-career-research/roadmap) | Four stages from foundations to internships |
+| [Forward Deployed Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/forward-deployed-engineer) | The main guide: work, pay, interviews, how to break in |
+| [Similar roles](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/) | FDE family + builder roles, side by side |
+| [Find the jobs](https://timothy-bailey4-10.github.io/is117-ai-career-research/job-search) | Search terms, where to look, posting checklist |
+| [AI Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/ai-engineer) | Building products on top of LLMs |
+| [Agent Engineer](https://timothy-bailey4-10.github.io/is117-ai-career-research/roles/agent-engineer) | Tool-using AI agents |
+| [Skills in demand](https://timothy-bailey4-10.github.io/is117-ai-career-research/skills) | What job postings actually ask for |
+| [Student roadmap](https://timothy-bailey4-10.github.io/is117-ai-career-research/roadmap) | Four stages from foundations to internships |
 
 ## Run it on your computer
 
 ```bash
 npm install          # install VitePress
-npm run docs:dev     # open http://localhost:5173/ai-career-research/
+npm run docs:dev     # open http://localhost:5173/is117-ai-career-research/
 ```
 
 ## Project layout

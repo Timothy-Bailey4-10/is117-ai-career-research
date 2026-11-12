@@ -3,55 +3,48 @@ layout: home
 
 hero:
   name: AI Career Research
-  text: The new jobs of the AI industry
-  tagline: What Forward Deployed Engineers, AI Engineers, Agent Engineers and other new roles actually do — and how a student can get there.
+  text: Forward Deployed Engineer & the AI jobs around it
+  tagline: A short field guide to the most in-demand AI roles of 2026, covering what they are, what they pay, and how to get hired.
   actions:
     - theme: brand
-      text: Explore the roles
+      text: FDE guide
+      link: /roles/forward-deployed-engineer
+    - theme: alt
+      text: Similar roles
       link: /roles/
     - theme: alt
-      text: Student roadmap
-      link: /roadmap
+      text: Find the jobs
+      link: /job-search
 
 features:
-  - icon: 🛠️
-    title: AI Engineer
-    details: Builds products on top of large language models — retrieval, fine-tuning, agents, and the code that ships them.
-    link: /roles/ai-engineer
   - icon: 🚀
     title: Forward Deployed Engineer
-    details: Embeds with a customer, wires AI into their real systems, and owns whether it works in production.
+    details: Embeds with customers, ships AI into their real systems, and owns whether it works. Postings have grown ~42× since 2023.
     link: /roles/forward-deployed-engineer
-  - icon: 🤖
-    title: Agent Engineer
-    details: Designs AI agents that call tools, remember context, and hand off to humans when they should.
-    link: /roles/agent-engineer
-  - icon: 🧪
-    title: AI Evaluation Engineer
-    details: Measures whether an AI system is actually good — and catches it when it stops being good.
-    link: /roles/ai-evaluation-engineer
-  - icon: 🧭
-    title: AI Product Manager
-    details: Decides what an AI feature should and shouldn't do, and how success gets measured.
-    link: /roles/ai-product-manager
-  - icon: 🛡️
-    title: AI Trust & Safety
-    details: Writes the rules, runs red-team tests, and responds when AI gets misused.
-    link: /roles/ai-trust-safety
+  - icon: 🧩
+    title: Applied AI / Solutions Engineer
+    details: The closest relatives of the FDE. Many companies use these titles for the same work.
+    link: /roles/#fde-family
+  - icon: 🛠️
+    title: AI & Agent Engineer
+    details: Build LLM products and tool-using agents in-house. Same skills as an FDE, but with less customer contact.
+    link: /roles/ai-engineer
+  - icon: 🔎
+    title: Find the jobs
+    details: Search terms, who's hiring, and how to tell a real FDE role from a relabeled sales job.
+    link: /job-search
 ---
 
-## Why this site exists
+## The short version
 
-New job titles are appearing faster than career guides can keep up. This site collects research on each role in one place: **what the job is, what a day looks like, the skills employers ask for, reported pay, and a realistic path in.**
-
-```text
-How to read a role page
-  1. At a glance   → quick facts card
-  2. What they do  → the job in plain words
-  3. Skills        → what job postings ask for
-  4. Break in      → concrete first steps
-```
+| | |
+|---|---|
+| **Target role** | Forward Deployed Engineer (FDE) |
+| **Typical US base** | ~$175K–$210K median; top postings $230K–$300K+ |
+| **Equity** | Mentioned in ~70% of postings |
+| **Quota?** | Essentially never. It's an engineering role, not sales |
+| **Also search for** | Applied AI Engineer, AI Deployment Engineer, Solutions Engineer (AI) |
 
 ::: tip Pay numbers
-Salaries in this field move quickly and published ranges often disagree. Treat every number here as a starting point and check the live posting.
+Different sources report very different numbers. Treat every figure here as a starting point and check the live posting.
 :::

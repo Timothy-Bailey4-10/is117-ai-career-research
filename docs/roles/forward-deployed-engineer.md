@@ -1,50 +1,67 @@
 # Forward Deployed Engineer (FDE)
 
 <div class="role-card">
-  <div><strong>Also called</strong>AI Forward Deployed Engineer, Deployment Engineer</div>
-  <div><strong>Coding level</strong>High</div>
+  <div><strong>Also called</strong>Forward Deployed AI Engineer, Applied AI Engineer, AI Deployment Engineer</div>
+  <div><strong>Coding level</strong>High (production code)</div>
   <div><strong>Customer contact</strong>Daily</div>
   <div><strong>Travel</strong>Often</div>
-  <div><strong>Origin</strong>Palantir's model, now used by AI labs</div>
+  <div><strong>Median US base</strong>~$175K–$210K</div>
 </div>
 
-## What they do
+## What it is
 
-A Forward Deployed Engineer **sits with a customer** and makes an AI product work inside that customer's real world — their data, their permissions, their messy workflows. The key difference from a normal engineer: an FDE **owns whether the system actually works**, not just whether it was delivered.
+An FDE **embeds with a customer** and makes an AI product work inside that customer's real environment: their data, their permissions, their messy workflows. Unlike a solutions engineer, an FDE **keeps owning the system after the sale**, through go-live and beyond. Fixes they build for one customer often become product features for everyone.
 
-What they learn in the field also flows back to the product team. A fix built for one customer often becomes a feature for everyone.
+The model started at Palantir. In 2026 it is the main way AI labs and enterprise AI companies deliver their products. LinkedIn reported that FDE roles grew **~42×** from 2023 to 2025, compared with ~13× for AI engineer roles.
 
 ## A typical week
 
-1. **Observe** — watch how the customer's team really does the work.
-2. **Integrate** — connect the AI to their systems of record (databases, CRMs, document stores).
-3. **Clean data** — build pipelines out of messy exports and spreadsheets.
-4. **Ship fast** — iterate in days, not months.
-5. **Support** — fix production problems in a system they don't fully control.
+1. **Discover**: sit with the customer's team and map how the work really gets done.
+2. **Integrate**: connect models and agents to their systems of record (databases, CRMs, document stores, APIs).
+3. **Build**: write pipelines, prompts, tools, and agent logic, iterating in days rather than months.
+4. **Evaluate**: prove the system works with evals and metrics the customer trusts.
+5. **Feed back**: turn field lessons into product requests for the core team.
 
-## Skills employers ask for
+## Skills postings ask for
 
-- Shipping an **AI agent end-to-end** for real users
-- Integration and data-pipeline work in messy environments
-- **Evaluation** — proving the system works (a frequent interview topic)
-- Demoing and explaining technical work to non-engineers
-- Comfort with travel and a customer-driven roadmap
+- **Strong software engineering**: Python and/or TypeScript, APIs, SQL, cloud
+- **LLM application skills**: RAG, tool use and agents, prompt design, **evals**
+- **Data wrangling** in environments you don't control
+- **Communication**: demoing, writing, explaining trade-offs to non-engineers
+- **Ownership**: debugging production issues with little guidance
 
-## Who hires FDEs
+## Who's hiring
 
-AI labs such as **OpenAI** and **Anthropic** advertise FDE roles. Companies like **Sierra** deploy FDEs with enterprise customers. Government-facing roles (inherited from Palantir) often need a security clearance.
+Anthropic and OpenAI (often under *Applied AI*), Palantir, Salesforce (dedicated AI FDE roles at multiple levels), Databricks, Snowflake, Vercel, Sierra, Scale AI, and many AI startups. Consulting firms such as Deloitte also hire under the FDE title. Government-facing roles often require a security clearance.
 
 ## Pay
 
-Coverage in 2026 reported top-lab FDE postings around **$280K**, but published ranges disagree a lot. Compare base pay, equity, location, and clearance requirements in each posting.
+| Source | Reported figure |
+|---|---|
+| Bloomberry (1,000 postings) | Median base ~$174K |
+| Paraform hiring data | Midpoint ~$183K |
+| Recruiting from Scratch (924 postings) | Median ~$195K |
+| San Francisco vs remote | ~$194K vs ~$180K median |
+| Example startup posting (San Mateo, hybrid) | $230K–$300K |
+
+About 70% of postings mention equity, and essentially none carry a sales quota.
+
+## The interview loop
+
+Expect most of these rounds:
+
+- **Coding**: practical, not puzzle-heavy (build or debug something real)
+- **Customer case / system design**: "A bank wants an agent for X. Scope it, design it, say how you'd prove it works."
+- **Evals deep-dive**: how you measure quality and catch regressions
+- **Demo or presentation**: explain a past project to a mixed audience
 
 ## How to break in
 
-1. Ship **one AI agent system** end-to-end for someone other than yourself (a club, a small business, a professor).
-2. Get practice where engineering meets people — internships, internal tools, client projects.
-3. Practice **demoing** and writing clearly.
-4. In interviews, ask: *"What metric is this role measured on?"* Real FDE roles are measured on customer outcomes, not sales.
+1. **Ship one AI agent end-to-end for a real user** (a club, a small business, a professor) and measure the result.
+2. Write it up with a clear problem, architecture, eval results, and what you'd do next. This is your interview story.
+3. Get practice where code meets people: internships, client projects, hackathons with real sponsors.
+4. Apply to **Applied AI / Solutions / Deployment** titles too, since they are often the same job.
 
-::: warning Watch for
-Some companies relabel pre-sales or support jobs as "FDE." Ask how much of the job is writing production code.
+::: warning Red flag
+Some companies relabel pre-sales or support jobs as "FDE." Ask: *"What share of the role is writing production code, and what metric is it measured on?"* A real FDE role is measured on customer outcomes, not deals closed.
 :::
